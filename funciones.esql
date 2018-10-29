@@ -1,4 +1,5 @@
 CREATE PROCEDURE getValue(IN key CHARACTER, IN element character)
 RETURNS CHARACTER
 LANGUAGE JAVA
+--hice un cambio
 EXTERNAL NAME "core.util.ConfigurableServiceMultiton.getValue";
